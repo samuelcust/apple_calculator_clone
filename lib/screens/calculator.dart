@@ -1,19 +1,16 @@
 import 'package:flutter/material.dart';
 
+import '../widgets/display.dart';
+import '../widgets/keyboard.dart';
+
 class Calculator extends StatelessWidget {
   const Calculator({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Column(children: const [
-      Text(
-        "Display",
-        textDirection: TextDirection.ltr,
-      ),
-      Text(
-        "Keyboard",
-        textDirection: TextDirection.ltr,
-      ),
+      Display(input: 0.0),
+      Keyboard(),
     ]);
   }
 }
