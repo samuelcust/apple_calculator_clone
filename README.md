@@ -2,7 +2,7 @@
 
 A Apple calculator clone writing in Flutter
 
-![screenshot](docs/screenshot.jpeg)
+<img src="docs/screenshot.jpeg" alt="screenshot" height="400" />
 
 ## To-Do
 
