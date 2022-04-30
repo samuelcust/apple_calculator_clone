@@ -8,9 +8,14 @@ class Calculator extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(children: const [
-      Display(input: 0.0),
-      Keyboard(),
-    ]);
+    return Directionality(
+      textDirection: TextDirection.ltr,
+      child: Column(
+        children: const [
+          Display(input: 0.0),
+          Keyboard(),
+        ],
+      ),
+    );
   }
 }
