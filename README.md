@@ -1,3 +1,3 @@
 # apple_calculator_clone
 
-A Apple calculator clone writting in Flutter
+A Apple calculator clone writing in Flutter
