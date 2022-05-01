@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-
-import '../widgets/display.dart';
-import '../widgets/keyboard.dart';
+import 'package:apple_calculator_clone/widgets/display.dart';
+import 'package:apple_calculator_clone/widgets/keyboard.dart';
 
 class Calculator extends StatelessWidget {
   const Calculator({Key? key}) : super(key: key);

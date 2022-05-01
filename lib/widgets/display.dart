@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:auto_size_text/auto_size_text.dart';
-
-import '../constants/colors.dart';
+import 'package:apple_calculator_clone/constants/colors.dart';
 
 class Display extends StatelessWidget {
   const Display({

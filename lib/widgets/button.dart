@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../constants/colors.dart';
+import 'package:apple_calculator_clone/constants/colors.dart';
 
 class Button extends StatelessWidget {
   const Button({
