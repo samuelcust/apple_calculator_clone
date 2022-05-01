@@ -33,11 +33,23 @@ class Memory {
     _stack = [total, 0.0];
   }
 
-  void subtract() {}
+  void subtract() {
+    double total = _stack.reduce((accumulator, number) => accumulator - number);
 
-  void multiply() {}
+    _stack = [total, 0.0];
+  }
 
-  void divide() {}
+  void multiply() {
+    double total = _stack.reduce((accumulator, number) => accumulator * number);
+
+    _stack = [total, 0.0];
+  }
+
+  void divide() {
+    double total = _stack.reduce((accumulator, number) => accumulator / number);
+
+    _stack = [total, 0.0];
+  }
 
   void total() {
     if (operation == 'add') {
